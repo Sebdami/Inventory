@@ -1,0 +1,60 @@
+[
+  {
+    "id": 0,
+	"itemName": "Iron Sword",
+	"description": "A simple and basic iron sword. It's still sharp though.",
+	"prefabName": "Iron_Sword",
+	"spriteName": "Iron_Sword",
+	"type": "equipment",
+	"localisation": "WEAPON",
+	"stats": 
+		{
+		"hp": 0,
+		"mana": 0,
+		"strength": 10,
+		"defense": 0,
+		"agility": 1
+		},
+	"stackable": false
+  },
+  {
+	"id": 1,
+	"itemName": "Health Potion",
+	"description": "A weird red liquid that makes you feel good when you drink it.",
+	"prefabName": "Health_Potion",
+	"spriteName": "Health_Potion",
+	"type": "consumable",
+	"action": "HEAL",
+	"value":10,
+	"stackable": true,
+	"maxStackable": 99
+  },
+  {
+	"id": 2,
+	"itemName": "Gold Ingot",
+	"description": "A shiny ingot made out of gold. Looks like it's worth money.",
+	"prefabName": "Gold_Ingot",
+	"spriteName": "Gold_Ingot",
+	"type": "material",
+	"stackable": true,
+	"maxStackable": 99
+  },
+  {
+	"id": 3,
+	"itemName": "Wooden Shield",
+	"description": "A shield made out of wood. It will protect you against forks but not much more...",
+	"prefabName": "Wooden_Shield",
+	"spriteName": "Wooden_Shield",
+	"type": "equipment",
+	"localisation": "SHIELD",
+	"stats": 
+		{
+		"hp": 10,
+		"mana": 2,
+		"strength": 2,
+		"defense": 12,
+		"agility": -2
+		},
+	"stackable": false
+  }
+]
